@@ -1,0 +1,12 @@
+.header{
+    color: $theme-color;
+    text-decoration: dashed;
+    box-shadow: 0 2px 4px rgba(15, 188, 19, 0.9);
+    background: white;
+     // 这些属性会触发前缀
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    user-select: none;
+    backdrop-filter: blur(10px);
+    clip-path: polygon(10% 0, 100% 0, 100% 90%, 0 100%);
+}
