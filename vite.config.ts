@@ -2,6 +2,7 @@ import { defineConfig, normalizePath } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
+import windi from 'vite-plugin-windicss'
 
 const variablePath  = normalizePath(path.resolve(__dirname, './src/variable.scss'));
 
@@ -27,5 +28,5 @@ export default defineConfig({
     }
   },
   root: path.resolve(__dirname, ''),
-  plugins: [react()],
+  plugins: [react(),windi()],
 })
