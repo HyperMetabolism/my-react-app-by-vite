@@ -12,6 +12,7 @@ function App() {
       <Header />
       <div>
         <a href="https://vite.dev" target="_blank" rel="noreferrer">
+          哈哈哈哈哈哈哈哈哈 测试 lint-staged + husky
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
