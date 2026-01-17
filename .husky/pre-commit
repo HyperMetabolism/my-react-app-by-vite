@@ -1,1 +1,2 @@
 npm run lint -- --fix
+git add -u  # 只添加已追踪的文件
